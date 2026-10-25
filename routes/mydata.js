@@ -1,9 +1,9 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+/* GET mydata page. */
+router.get("/", function (req, res, next) {
+  res.render("mydata", { title: "Wiam Kitar" });
 });
 
 module.exports = router;
